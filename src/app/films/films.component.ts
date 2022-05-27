@@ -42,7 +42,7 @@ export class FilmsComponent implements OnInit {
     }
   )
   }
-  
+
   applyFilter(event:Event)
   {
     const filterValue = (event.target as HTMLInputElement).value;
@@ -53,6 +53,5 @@ export class FilmsComponent implements OnInit {
       this.dataSource.paginator.firstPage();
     }
   }
-
 
 }
